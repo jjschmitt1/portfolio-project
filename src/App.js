@@ -8,13 +8,7 @@ import MyNavBar from './components/Navigation/MyNavBar';
 
 function App() {
   return (
-    <main>
-      <MyNavBar />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-    </main>
+    <MyNavBar />
   );
 }
 

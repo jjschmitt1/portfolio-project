@@ -1,24 +1,38 @@
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
+import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-function MyNavBar() {
+const MyNavBar = () => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
-            <Container>
-                <Navbar.Brand href="home">JJ Schmitt</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About Me</Nav.Link>
-                        <Nav.Link href="#experience">Experience</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#contact">Contact Me</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <div className="container">
+            <a className="navbar-brand" href="#">JJ Schmitt</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <FontAwesomeIcon icon={ faBars } style={{ color: "#fff"}}/>
+            </button>
+
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav ms-auto">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">Home</a>
+                    </li>
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">About</a>
+                    </li>
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">Experience</a>
+                    </li>
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">Projects</a>
+                    </li>
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        </nav>
     );
 }
 
