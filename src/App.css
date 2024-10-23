@@ -2,13 +2,16 @@
 
 :root{
   --primary-white: #fff;
-  --primary-green: #39e75f;
   --primary-dark: #282828;
+  --primary-green: #34c954;
 }
 
 body {
   font-family: "Roboto Condensed" sans-serif;
 }
+
+
+
 /**** Navbar styling ***/
 nav a.nav-link {
   font-size: 0.8rem;
@@ -37,6 +40,12 @@ nav ul li {
   align-items: center;
 }
 
+@media(max-width: 768px){
+  .navbar-brand {
+    width: 7rem;
+  }
+}
+
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-green);
 }
@@ -44,3 +53,73 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-green);
 }
+
+
+
+/**** Navbar styling ***/
+.header-wrapper {
+  position: relative;
+  background: url(portfolio-background-normal.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+.main-info h1 {
+  color: var(--primary-green);
+  text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+  .main-info {
+    font-size: 1.7rem !important;
+  }
+}
+
+/*---------- Typed Text --------*/
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+@media(max-width: 768px){
+  .typed-text {
+    font-size: 1.3rem;
+
+  }
+}
+
+
+/*---------- Header Main Offer Button --------*/
+.btn-main-offer {
+  border: 1px solid var(--primary-green);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-green);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
