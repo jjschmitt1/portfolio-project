@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const MyNavBar = () => {
     return (
@@ -14,19 +15,19 @@ const MyNavBar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home</a>
+                        <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">About</a>
+                        <Link to="/about" className="nav-link">About</Link>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Experience</a>
+                        <Link to="/experience" className="nav-link">Experience</Link>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Projects</a>
+                        <Link to="/projects" className="nav-link" >Projects</Link>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Contact</a>
+                        <Link to="/contact" className="nav-link">Contact</Link>
                     </li>
 
                 </ul>

@@ -1,11 +1,13 @@
-
+import React from "react";
+import MyNavBar from "../Navigation/MyNavBar";
 
 function Projects() {
     return (
-        <main>
+        <div>
+            <MyNavBar />
             <p>Projects Page</p>
-        </main>
-    );
+        </div>
+    )
 }
 
 export default Projects;

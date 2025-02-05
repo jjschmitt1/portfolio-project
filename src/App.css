@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-  --primary-white: #fff;
-  --primary-dark: #282828;
-  --primary-green: #34c954;
+  --primary-white: #EAE7DC;
+  --primary-dark: #1E3A5F;
+  --primary-green: #004225;
+  --secondary-green: #A6B7A3;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 
 /**** Navbar styling ***/
-nav a.nav-link {
+nav .nav-link {
   font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -23,15 +24,15 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a{
+.navbar-nav > li > .nav-link{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
+  color: var(--secondary-green) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-brand{
-  color: var(--primary-white) !important;
+  color: var(--secondary-green) !important;
   font-size: 1.75rem !important;
   max-width: 17.25rem;
   padding: 0 !important;
@@ -46,12 +47,12 @@ nav ul li {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > .nav-link.active, .navbar-nav > li > .nav-link.active:focus {
   border-top: 0.1875rem solid var(--primary-green);
 }
 
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-green);
+.navbar-nav > li > .nav-link:hover {
+  border-top: 0.1875rem solid var(--secondary-green);
 }
 
 
@@ -59,7 +60,7 @@ nav ul li {
 /**** Navbar styling ***/
 .header-wrapper {
   position: relative;
-  background: url(portfolio-background-normal.jpg) no-repeat;
+  background: url(background_boosted_vignette.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -80,7 +81,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-green);
+  color: var(--secondary-green);
   text-transform: uppercase;
 }
 
@@ -94,7 +95,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: var(--secondary-green);
 }
 
 @media(max-width: 768px){
@@ -107,11 +108,11 @@ nav ul li {
 
 /*---------- Header Main Offer Button --------*/
 .btn-main-offer {
-  border: 1px solid var(--primary-green);
+  border: 1px solid var(--secondary-green);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--secondary-green);
   margin: 2rem;
 
 }

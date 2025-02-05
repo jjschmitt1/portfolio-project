@@ -1,11 +1,13 @@
-
+import React from 'react'
+import MyNavBar from '../Navigation/MyNavBar';
 
 function About() {
     return (
-        <main>
+        <div>
+            <MyNavBar />
             <p>About Page</p>
-        </main>
-    );
+        </div>
+    )
 }
 
 export default About;

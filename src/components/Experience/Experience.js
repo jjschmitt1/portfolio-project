@@ -1,11 +1,13 @@
-
+import React from "react";
+import MyNavBar from "../Navigation/MyNavBar";
 
 function Experience() {
     return (
-        <main>
+        <div>
+            <MyNavBar />
             <p>Experience Page</p>
-        </main>
-    );
+        </div>
+    )
 }
 
 export default Experience;

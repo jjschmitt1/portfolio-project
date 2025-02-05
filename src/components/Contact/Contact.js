@@ -1,11 +1,13 @@
-
+import React from "react";
+import MyNavBar from "../Navigation/MyNavBar";
 
 function Contact() {
     return (
-        <main>
+        <div>
+            <MyNavBar />
             <p>Contact Page</p>
-        </main>
-    );
+        </div>
+    )
 }
 
 export default Contact;
