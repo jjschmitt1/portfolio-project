@@ -2,6 +2,8 @@ import React from 'react';
 import MyNavBar from '../Navigation/MyNavBar';
 import buda_pic from '../../me_in_buda.png';
 import "./about.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function About() {
     return (
@@ -21,7 +23,20 @@ function About() {
                             enough to attend a middle school and high school that offered a plethora of 
                             programming courses, and I've been coding ever since.
                         </p>
-                        <p>You can reach me at jlschmitt19@gmail.com or my socials below!</p>
+                        <p>
+                            You can reach me at jlschmitt19@gmail.com or my socials below!
+                        </p>
+                        <div className="social-container d-flex">
+                            <a href="https://www.linkedin.com/in/jlschmitt4/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                            <a href="https://www.instagram.com/jj.schmitt1/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>
+                            <a href="https://github.com/jjschmitt1" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                        </div>
                     </div>
 
                     {/* Right Column - Image */}
