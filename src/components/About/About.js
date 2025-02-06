@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import MyNavBar from '../Navigation/MyNavBar';
 import buda_pic from '../../me_in_buda.png';
 import "./about.css";
@@ -8,12 +8,10 @@ function About() {
         <div className="about-me-wrapper">
             <MyNavBar />
             <div className="container">
-                <div className="title">
-                    <h1>About Me</h1>
-                </div>    
                 <div className="content-section">
                     
-                    <div className="about-me-text">
+                    <div className="left-column">
+                        <h1>About Me</h1>
                         <p>
                             Hello! My name is JJ Schmitt and I am a December 2024 Graduate of UW-Madison.
                             I enjoy playing golf, cooking, lifting weights, hanging out with friends and
@@ -23,8 +21,11 @@ function About() {
                             enough to attend a middle school and high school that offered a plethora of 
                             programming courses, and I've been coding ever since.
                         </p>
+                        <p>You can reach me at jlschmitt19@gmail.com or my socials below!</p>
                     </div>
-                    <div className="image-section">
+
+                    {/* Right Column - Image */}
+                    <div className="right-column">
                         <img src={buda_pic} alt="A picture of me in Budapest"/>
                     </div>
                 </div>
