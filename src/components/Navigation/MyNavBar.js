@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const MyNavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
             <a className="navbar-brand" href="#">JJ Schmitt</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -2,7 +2,8 @@
 
 :root{
   --primary-white: #EAE7DC;
-  --primary-dark: #1E3A5F;
+  --primary-dark: #182E4C;
+  --secondary-dark: #1E3A5F;
   --primary-green: #004225;
   --secondary-green: #A6B7A3;
 }
@@ -20,6 +21,10 @@ nav .nav-link {
   cursor: pointer;
 }
 
+.navbar {
+  background-color: var(--primary-dark) !important;
+}
+
 nav ul li {
   text-transform: uppercase;
 }
@@ -27,12 +32,12 @@ nav ul li {
 .navbar-nav > li > .nav-link{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--secondary-green) !important;
+  color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-brand{
-  color: var(--secondary-green) !important;
+  color: var(--primary-white) !important;
   font-size: 1.75rem !important;
   max-width: 17.25rem;
   padding: 0 !important;
@@ -52,12 +57,12 @@ nav ul li {
 }
 
 .navbar-nav > li > .nav-link:hover {
-  border-top: 0.1875rem solid var(--secondary-green);
+  border-top: 0.1875rem solid var(--primary-white);
 }
 
 
 
-/**** Navbar styling ***/
+/**** landing page styling ***/
 .header-wrapper {
   position: relative;
   background: url(background_boosted_vignette.png) no-repeat;
@@ -81,7 +86,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--secondary-green);
+  color: var(--primary-white);
   text-transform: uppercase;
 }
 
@@ -95,7 +100,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--secondary-green);
+  color: var(--primary-white);
 }
 
 @media(max-width: 768px){
@@ -108,11 +113,11 @@ nav ul li {
 
 /*---------- Header Main Offer Button --------*/
 .btn-main-offer {
-  border: 1px solid var(--secondary-green);
+  border: 1px solid var(--primary-white);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--secondary-green);
+  color: var(--primary-white);
   margin: 2rem;
 
 }
