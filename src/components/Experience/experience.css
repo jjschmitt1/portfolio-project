@@ -1,0 +1,67 @@
+.experience-wrapper {
+    background-color: var(--primary-white);
+    min-height: 100vh;
+    
+}
+
+/* Left Column: Semester List */
+.left-col {
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.left-col h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-dark);
+}
+
+/* Right Column: Course Grid */
+.right-col {
+    padding: 20px;
+    min-height: 550px;
+}
+
+.right-col h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-dark);
+}
+
+
+
+/* Course Card Styling */
+.course-card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    color: var(--primary-dark);
+}
+
+.course-card:hover {
+    transform: scale(1.02);
+}
+
+.internship-section{
+    padding-top: 40px;
+    color: var(--primary-dark);
+}
+
+.internship-section h2{
+    text-align: center;
+}
+
+/* Resume Section */
+.resume-section {
+    text-align: center;
+    padding-top: 40px;
+    color: var(--primary-dark);
+    padding-bottom: 100px;
+}
+
+.resume-section a {
+    margin-top: 10px;
+}

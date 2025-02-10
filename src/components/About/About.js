@@ -19,7 +19,7 @@ function About() {
                             I enjoy playing golf, cooking, lifting weights, hanging out with friends and
                             family, watching and playing soccer, watching Chicago / UW-Madison sports, 
                             and programming. My first time programming was in 5th grade, when a traveling coding class
-                            came to my elementary school and taught us drag and drop coding. I was lucky
+                            came to my elementary school and taught us drag-and-drop coding. I was lucky
                             enough to attend a middle school and high school that offered a plethora of 
                             programming courses, and I've been coding ever since.
                         </p>
