@@ -23,6 +23,8 @@ function About() {
                             enough to attend a middle school and high school that offered a plethora of 
                             programming courses, and I've been coding ever since.
                         </p>
+                        {/* TODO: Add a "quote of the week" thing, where I can put cool quotes I like
+                            quote 1: An idiot admires complexity, a genius admires simplicity - Terry A. Davis*/}
                         <p>
                             You can reach me at jlschmitt19@gmail.com or my socials below!
                         </p>

@@ -27,7 +27,6 @@ function Experience() {
             <MyNavBar />
             <Container>
                 <Row className="coursework-section">
-                    {/* Left Column - Semester List */}
                     <Col md={4} className="left-col">
                         <h2>Semesters</h2>
                         <ListGroup>
@@ -43,8 +42,7 @@ function Experience() {
                             ))}
                         </ListGroup>
                     </Col>
-
-                    {/* Right Column - Courses Grid */}
+                    {/* TODO: Add card pop-up when one of the classes is selected */}
                     <Col md={8} className="right-col">
                         <h2>{selectedSemester} Courses</h2>
                         <div className="course-grid">
@@ -58,8 +56,6 @@ function Experience() {
                         </div>
                     </Col>
                 </Row>
-
-                {/*Internship section */}
                 <Row className="internship-section">
                     <Col>
                             <h2>Internship Experience</h2>
@@ -81,8 +77,6 @@ function Experience() {
                             </ul>
                     </Col>
                 </Row>
-
-                {/* Resume Section */}
                 <Row className="resume-section">
                     <Col>
                         <h2>Resume</h2>
