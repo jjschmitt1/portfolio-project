@@ -65,7 +65,7 @@ nav ul li {
 /**** landing page styling ***/
 .header-wrapper {
   position: relative;
-  background: url(background_boosted_vignette.png) no-repeat;
+  background: url(content/background_boosted_vignette.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;

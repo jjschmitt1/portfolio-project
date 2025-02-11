@@ -1,6 +1,6 @@
 import React from 'react';
 import MyNavBar from '../Navigation/MyNavBar';
-import buda_pic from '../../me_in_buda.png';
+import buda_pic from '../../content/me_in_buda.png';
 import "./about.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
