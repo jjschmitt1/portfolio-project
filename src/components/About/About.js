@@ -1,6 +1,5 @@
 import React from 'react';
 import MyNavBar from '../Navigation/MyNavBar';
-import buda_pic from '../../content/me_in_buda.png';
 import "./about.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -43,7 +42,7 @@ function About() {
 
                     {/* Right Column - Image */}
                     <div className="right-column">
-                        <img src={buda_pic} alt="A picture of me in Budapest"/>
+                        <img src='/content/me_in_buda.png' alt="A picture of me in Budapest"/>
                     </div>
                 </div>
             </div>

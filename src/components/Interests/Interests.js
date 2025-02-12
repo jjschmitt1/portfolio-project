@@ -5,15 +5,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./interests.css";
 
-/* Picture imports */
-import golf_pic from '../../content/golf_pic.png';
-import travel_pic from '../../content/travel_pic.png';
-import soccer_pic from '../../content/soccer_pic.png';
-import cooking_pic from '../../content/cooking_pic.png';
-import house_music_pic from '../../content/house_music_pic.png';
-import sports_pic from '../../content/sports_pic.png';
-import skiing_pic from '../../content/skiing_pic.png';
-
 function Interests() {
     return (
         <div className="interests-wrapper">
@@ -36,12 +27,12 @@ function Interests() {
                         </p>
                     </Col>
                     <Col md={6} className="golf-picture pic">
-                        <img src={golf_pic} alt="my dad and I at the European Club in Ireland"/>
+                        <img src='/content/golf_pic.png' alt="my dad and I at the European Club in Ireland"/>
                     </Col>
                 </Row>
                 <Row className="travel-section sec">
                     <Col md={6} className="travel-picture pic">
-                        <img src={travel_pic} alt=""/>
+                        <img src='/content/travel_pic.png' alt=""/>
                     </Col>
                     <Col md={6} className="travel-text text">
                         <p>
@@ -79,12 +70,12 @@ function Interests() {
                         </p>
                     </Col>
                     <Col md={6} className="soccer-picture pic">
-                        <img src={soccer_pic} alt="Champions League night in Signal Iduna Park"/>
+                        <img src='/content/soccer_pic.png' alt="Champions League night in Signal Iduna Park"/>
                     </Col>
                 </Row>
                 <Row className="cooking-section sec">
                     <Col md={6} className="cooking-picture pic">
-                        <img src={cooking_pic} alt="A nice meal I made recently"/>
+                        <img src='/content/cooking_pic.png' alt="A nice meal I made recently"/>
                     </Col>
                     <Col md={6} className="cooking-text text">
                         <p>
@@ -112,12 +103,12 @@ function Interests() {
                         </p>
                     </Col>
                     <Col md={6} className="house-music-picture pic">
-                        <img src={house_music_pic} alt="Some of my favorite house songs"/>
+                        <img src='/content/house_music_pic.png' alt="Some of my favorite house songs"/>
                     </Col>
                 </Row>
                 <Row className="sports-section sec">
                     <Col md={6} className="sports-picture pic">
-                        <img src={sports_pic} alt="A sunny day at Camp Randall"/>
+                        <img src='/content/sports_pic.png' alt="A sunny day at Camp Randall"/>
                     </Col>
                     <Col md={6} className="sports-text text">
                         <p>
@@ -143,7 +134,7 @@ function Interests() {
                         </p>
                     </Col>
                     <Col md={6} className="skiing-picture pic">
-                        <img src={skiing_pic} alt="A picture from my trip abroad to Chamonix"/>
+                        <img src='/content/skiing_pic.png' alt="A picture from my trip abroad to Chamonix"/>
                     </Col>
                 </Row>
             </Container>
