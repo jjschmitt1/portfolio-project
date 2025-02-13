@@ -36,7 +36,7 @@ function Interests() {
 
                 <Row className="travel-section sec">
                     <Col md={6} className="travel-picture pic">
-                        <img src='/content/travel_pic.png' alt="" />
+                        <img src='/content/travel_pic.png' alt="Florence skyline" />
                     </Col>
                     <Col md={6} className="travel-text text">
                         <p>
@@ -45,13 +45,13 @@ function Interests() {
                             take a break, everyone loves to travel. I have been fortunate
                             enough to travel to a total of 15 different countries, not including
                             the US. While it would be unfair to pick least favorites, I will give
-                            my top 3. Number 1 has to be Germany for the culture of beer drinking
-                            and being outside. Living in Berlin for 4 months taught be this best.
+                            my top 3. Germany takes the top spot for its beer culture and outdoor lifestyle.
+                            Living in Berlin for 4 months taught me this best.
                             Number 2 is Italy for me, the combination of the Alps in the north and
-                            the tuscan hills in the middle with the laid back lifestyle make Italy
-                            a great travel destination. Third place is a little harder to discern,
-                            however I think it goes to Hungary. I had a great weekend in Budapest
-                            with my friends, and the architecrure was gorgeous. Honorable mention
+                            the Tuscan hills in the middle with the laid back lifestyle make Italy
+                            a great travel destination. Third place is harder to decide, but I think it goes to Hungary.
+                            I had a great weekend in Budapest
+                            with my friends, and the architecture was gorgeous. Honorable mention
                             to Scotland.
                         </p>
                     </Col>
@@ -62,15 +62,15 @@ function Interests() {
                         <p>
                             Soccer was my main sport growing up. I have played it for as long as I
                             can remember. I was originally a right back, however I got moved into
-                            center back for my high school career. Part of my wishes I played in
+                            center back for my high school career. Part of me wishes I played in
                             college, however I wouldn't trade the education and experiences I've had
                             at UW-Madison for anything - so I think I made the right choice. I still
-                            have the opportunity to play intermurals, which I find a fun way to stay
+                            have the opportunity to play intramurals, which I find a fun way to stay
                             connected with the game. As for watching soccer, during my time abroad I
                             made it to a Champions League game, Bundesliga game, and Bundesliga.2 game.
-                            All were exceptional experiences. My premier league team is Manchester City
+                            All were exceptional experiences. My Premier League team is Manchester City
                             who I've been supporting since I was 9. I wish I could find the time to
-                            watch more premier league games, but I usually resort to watching Champions
+                            watch more Premier League games, but I usually end up watching Champions
                             League games instead.
                         </p>
                     </Col>
@@ -85,14 +85,14 @@ function Interests() {
                     </Col>
                     <Col md={6} className="cooking-text text">
                         <p>
-                            I grew up in a house with a lot of homemade cooking. My dad was the griller
+                            I grew up with a lot of homemade cooking. My dad was the griller
                             and my Mom handled just about everything else. Missing home-cooked meals at
                             college, I figured it was about time I learned to cook for myself. I started
                             simple with breakfast food and ground beef, but I've worked my way up to
                             venison stuffed peppers and glazed salmon. I love cooking venison, and my
                             go to meal right now venison or chicken and rice with sides of roasted sweet
                             potatoes and sauteed peppers and onions. If you couldn't notice, I still need
-                            some work on plating, but thats not the fun part.
+                            some work on plating, but that's not the fun part.
                         </p>
                     </Col>
                 </Row>
@@ -103,10 +103,9 @@ function Interests() {
                             This is a new passion of mine. When I was living in Berlin, I was introduced to
                             techno music, which was a little intense for me. On my search for techno music that
                             was a little easier to listen to, I found the genre of house music. The upbeat tempo
-                            paired with a good beat always gets me pumped up for whatever lays ahead of me. some
-                            of my favorite artists currently are JAYC, Lemtom, and AstroHertz. I love putting on
-                            the spotify-recommended songs on and finding new music to listen to when Programming
-                            or at the gym.
+                            paired with a good beat always gets me pumped up for whatever lies ahead of me. Some
+                            of my favorite artists currently are JAYC, Lemtom, and AstroHertz. I love putting on 
+                            Spotify-recommended songs and discovering new music while programming or working out.
                         </p>
                     </Col>
                     <Col md={6} className="house-music-picture pic">
@@ -126,7 +125,7 @@ function Interests() {
                             Once I enrolled at UW-Madison, I always took pride in rooting for the Badgers on the
                             football field and basketball court. Although the football was lackluster at times, it
                             felt as though every year we were either good at football or basketball. My newfound
-                            passion for football transfered over to the Chicago Bears, which is now one of my favorite
+                            passion for football transferred over to the Chicago Bears, which is now one of my favorite
                             teams to root for. Caleb Williams is the answer.
                         </p>
                     </Col>
@@ -135,15 +134,15 @@ function Interests() {
                 <Row className="skiing-section sec">
                     <Col md={6} className="skiing-text text">
                         <p>
-                            Every spring break from elementary school up until the end of highschool was spent on
-                            a family skiing trip. Something about being out in the snowy wilderness always felt right.
-                            In my opinion, not much beats a day of powder skiing followed by quality time with family
-                            and friends reminiscing on the great skiing that happened that day. This passion is something
-                            that I hope I can pass on to all of those I meet.
+                        Every spring break from elementary school through high school was spent on a family ski trip. 
+                        There’s something about being out in the snowy wilderness that has always felt right. 
+                        In my opinion, few things compare to a day of powder skiing, followed by quality time with 
+                        family and friends, reminiscing about the best runs of the day. This passion is something I 
+                        hope to share with everyone I meet.
                         </p>
                     </Col>
                     <Col md={6} className="skiing-picture pic">
-                        <img src='/content/skiing_pic.png' alt="A picture from my trip abroad to Chamonix" />
+                        <img src='/content/skiing_pic.png' alt="Chamonix Basin" />
                     </Col>
                 </Row>
 

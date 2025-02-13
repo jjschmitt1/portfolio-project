@@ -2,10 +2,9 @@
 
 :root{
   --primary-white: #EAE7DC;
+  --secondary-white: #F8F6F1;
   --primary-dark: #182E4C;
   --secondary-dark: #1E3A5F;
-  --primary-green: #004225;
-  --secondary-green: #A6B7A3;
 }
 
 body {

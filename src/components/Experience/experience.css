@@ -8,6 +8,7 @@
 .left-col {
     padding: 20px;
     border-right: 2px solid #ddd;
+    color: var(--secondary-white);
 }
 
 .left-col h2 {
@@ -20,6 +21,7 @@
 .right-col {
     padding: 20px;
     min-height: 550px;
+    color: var(--secondary-white);
 }
 
 .right-col h2 {
@@ -32,7 +34,7 @@
 
 /* Course Card Styling */
 .course-card {
-    background-color: #f8f9fa;
+    background-color: var(--secondary-white);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

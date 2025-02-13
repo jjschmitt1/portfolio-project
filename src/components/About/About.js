@@ -1,7 +1,7 @@
 import React from 'react';
 import MyNavBar from '../Navigation/MyNavBar';
 import "./about.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function About() {
@@ -14,13 +14,14 @@ function About() {
                     <div className="left-column">
                         <h1>About Me</h1>
                         <p>
-                            Hello! My name is JJ Schmitt and I am a December 2024 Graduate of UW-Madison.
-                            I enjoy playing golf, cooking, lifting weights, hanging out with friends and
-                            family, watching and playing soccer, watching Chicago / UW-Madison sports, 
-                            and programming. My first time programming was in 5th grade, when a traveling coding class
-                            came to my elementary school and taught us drag-and-drop coding. I was lucky
-                            enough to attend a middle school and high school that offered a plethora of 
-                            programming courses, and I've been coding ever since.
+                        Hello! My name is JJ Schmitt, and I am a December 2024 graduate of UW-Madison. I enjoy playing golf, 
+                        cooking, lifting weights, spending time with family and friends, and both playing and watching soccer. 
+                        I’m also a passionate fan of Chicago and UW-Madison sports.
+
+                        My journey into programming began in 5th grade, when a traveling coding class introduced my elementary 
+                        school to drag-and-drop coding. From there, I was fortunate to attend a middle and high school that 
+                        offered a wide range of programming courses, allowing me to develop and refine my skills over the years. 
+                        I've been coding ever since!
                         </p>
                         {/* TODO: Add a "quote of the week" thing, where I can put cool quotes I like
                             quote 1: An idiot admires complexity, a genius admires simplicity - Terry A. Davis*/}
@@ -42,7 +43,7 @@ function About() {
 
                     {/* Right Column - Image */}
                     <div className="right-column">
-                        <img src='/content/me_in_buda.png' alt="A picture of me in Budapest"/>
+                        <img src='/content/me_in_buda.png' alt="Me in Budapest"/>
                     </div>
                 </div>
             </div>
