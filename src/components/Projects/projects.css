@@ -1,0 +1,34 @@
+/* Keep existing wrapper styles */
+.projects-wrapper {
+    background-color: var(--primary-white);
+    min-height: 100vh;
+}
+
+/* Project Card */
+.project-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--secondary-white); /* Adjust based on theme */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Image inside the Card */
+.project-image {
+    width: 40%;  /* Adjust width */
+    max-width: 250px;  /* Prevents it from being too large */
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 40px;
+}
+
+/* Card body (text area) */
+.project-card .card-body {
+    flex: 1; /* Allow text area to take remaining space */
+    padding: 20px;
+    color: var(--primary-dark);
+}
