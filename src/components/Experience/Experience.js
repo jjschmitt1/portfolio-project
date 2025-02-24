@@ -62,17 +62,17 @@ function Experience() {
                             <h3>Caurus: Software Engineering Intern</h3>
                             <p>May 2024 - Aug 2024</p>
                             <ul>
-                                <li>Worked with a small engineering team at a revenue generating data infrastructure startup</li>
-                                <li>Assisted with product ideation through curation of potential clients, participation on client discovery calls, and ideation talks</li>
-                                <li>Learned the intricacies of what a modern data stack looks like, and which technologies fit into the stack most effectively</li>
-                                <li>Completed a replicator program in Rust to assist the team with future testing methods. This program empowers our engineers to bootstrap from a heterogeneous machine cluster to an experimental service cell with a single command spot</li>
+                                <li>Collaborated with a small engineering team at a revenue-generating data infrastructure startup</li>
+                                <li>Contributed to product ideation by curating potential clients, and engaging in ideation talks</li>
+                                <li>Acquired in-depth knowledge of modern data stack architecture and identified technologies that efficiently integrate</li>
+                                <li>Developed a Rust-based replicator program that enables engineers to bootstrap from a heterogeneous machine cluster to an experimental service cell with a single command</li>
                             </ul>
                             <h3>UBS: Corporate Cash Management Group Intern</h3>
                             <p>May 2023 - Aug 2023</p>
                             <ul>
                                 <li>Developed an understanding of the importance of fostering strong and lasting client relationships through communication</li>
-                                <li>Created Microsoft Office macros in VBA to automate time-consuming tasks for multiple team members</li>
-                                <li>Perform quantitative research on current market trends and client holdings for the managing director - $45 billion business</li>
+                                <li>Acquired an understanding of VBA to innovate macros which automate time-consuming daily tasks</li>
+                                <li>Performed quantitative research on current market trends and client holdings for the managing director - $45 billion business</li>
                                 <li>Collaborated with team members to present weekly team presentations and an end-of-summer capstone project</li>
                             </ul>
                     </Col>

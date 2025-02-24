@@ -12,20 +12,20 @@ function Interests() {
         <div className="interests-wrapper">
             <MyNavBar />
             <Container>
-                <h1 className="top-header">My Interests</h1>
+                <h1 className="top-header">Interests</h1>
 
                 <Row className="golf-section sec">
                     <Col md={6} className="golf-text text">
                         <p>
                             I have played golf the majority of my life. Despite this,
                             it wasn't always something
-                            I was passionate about. My Dad made me play it growing up,
+                            I was passionate about. My dad made me play it growing up,
                             but now I am glad he did because I can beat my friends! I
                             am currently a 7.9 handicap, which is the lowest I have ever been.
                             I've been lucky enough to play some top courses across the
                             world with my dad, including courses in Ireland, Scotland, and Northern
                             Ireland. My favorite course that I've played would have to be Royal Dornoch,
-                            but rounding out my top 3 would be Royal County Down and
+                            but rounding out my top three would be Royal County Down and
                             Cruden Bay.
                         </p>
                     </Col>
@@ -41,18 +41,17 @@ function Interests() {
                     <Col md={6} className="travel-text text">
                         <p>
                             Traveling is something that I think people universally agree
-                            is awesome. Whether it be to see family, friends, or just
+                            is incredible. Whether it be to see family, friends, or just
                             take a break, everyone loves to travel. I have been fortunate
                             enough to travel to a total of 15 different countries, not including
                             the US. While it would be unfair to pick least favorites, I will give
-                            my top 3. Germany takes the top spot for its beer culture and outdoor lifestyle.
-                            Living in Berlin for 4 months taught me this best.
-                            Number 2 is Italy for me, the combination of the Alps in the north and
+                            my top three. Germany takes the top spot for its beer culture and outdoor lifestyle.
+                            Living in Berlin for four months taught me this best.
+                            Number two is Italy for me—the combination of the Alps in the north and
                             the Tuscan hills in the middle with the laid back lifestyle make Italy
                             a great travel destination. Third place is harder to decide, but I think it goes to Hungary.
-                            I had a great weekend in Budapest
-                            with my friends, and the architecture was gorgeous. Honorable mention
-                            to Scotland.
+                            I had a great weekend in Budapest with my friends, and the architecture 
+                            was gorgeous. Honorable mention to Scotland.
                         </p>
                     </Col>
                 </Row>
@@ -61,15 +60,15 @@ function Interests() {
                     <Col md={6} className="soccer-text text">
                         <p>
                             Soccer was my main sport growing up. I have played it for as long as I
-                            can remember. I was originally a right back, however I got moved into
-                            center back for my high school career. Part of me wishes I played in
+                            can remember. I was originally a right back, but during high school I got moved to
+                            center back. Part of me wishes I played in
                             college, however I wouldn't trade the education and experiences I've had
                             at UW-Madison for anything - so I think I made the right choice. I still
                             have the opportunity to play intramurals, which I find a fun way to stay
                             connected with the game. As for watching soccer, during my time abroad I
                             made it to a Champions League game, Bundesliga game, and Bundesliga.2 game.
                             All were exceptional experiences. My Premier League team is Manchester City
-                            who I've been supporting since I was 9. I wish I could find the time to
+                            who I've been supporting since I was nine. I wish I could find the time to
                             watch more Premier League games, but I usually end up watching Champions
                             League games instead.
                         </p>
@@ -86,13 +85,13 @@ function Interests() {
                     <Col md={6} className="cooking-text text">
                         <p>
                             I grew up with a lot of homemade cooking. My dad was the griller
-                            and my Mom handled just about everything else. Missing home-cooked meals at
+                            and my mom handled just about everything else. Missing home-cooked meals at
                             college, I figured it was about time I learned to cook for myself. I started
                             simple with breakfast food and ground beef, but I've worked my way up to
                             venison stuffed peppers and glazed salmon. I love cooking venison, and my
-                            go to meal right now venison or chicken and rice with sides of roasted sweet
+                            go to meal right now is venison or chicken and rice with sides of roasted sweet
                             potatoes and sauteed peppers and onions. If you couldn't notice, I still need
-                            some work on plating, but that's not the fun part.
+                            some work on plating, but that's not the fun part of cooking.
                         </p>
                     </Col>
                 </Row>
@@ -105,7 +104,7 @@ function Interests() {
                             was a little easier to listen to, I found the genre of house music. The upbeat tempo
                             paired with a good beat always gets me pumped up for whatever lies ahead of me. Some
                             of my favorite artists currently are JAYC, Lemtom, and AstroHertz. I love putting on 
-                            Spotify-recommended songs and discovering new music while programming or working out.
+                            Spotify's recommended songs and discovering new music while programming or working out.
                         </p>
                     </Col>
                     <Col md={6} className="house-music-picture pic">
