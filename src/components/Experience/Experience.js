@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import { Helmet } from "react-helmet-async";
 
 function Experience() {
     // State to store the selected semester
@@ -25,6 +26,9 @@ function Experience() {
     return (
         <div className="experience-wrapper">
             <MyNavBar />
+            <Helmet>
+                <title>JJ Schmitt | Experience</title>
+            </Helmet>
             <Container>
                 <Row className="coursework-section">
                     <Col md={4} className="left-col">

@@ -1,7 +1,8 @@
-import React from "react"
-import MyNavBar from "../Navigation/MyNavBar"
-import './projects.css'
-import { Row, Col, Card } from 'react-bootstrap'
+import React from "react";
+import MyNavBar from "../Navigation/MyNavBar";
+import './projects.css';
+import { Row, Col, Card } from 'react-bootstrap';
+import { Helmet } from "react-helmet-async";
 
 function Projects() {
     const descriptions = {
@@ -20,6 +21,9 @@ function Projects() {
     return (
         <div className="projects-wrapper">
             <MyNavBar />
+            <Helmet>
+                <title>JJ Schmitt | Projects</title>
+            </Helmet>
             <Row className="justify-content-center mt-5">
                 {myProjects.map((project, idx) => (
                     <Col key={idx} md={10} lg={8} className="mb-4">

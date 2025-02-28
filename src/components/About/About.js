@@ -3,11 +3,15 @@ import MyNavBar from '../Navigation/MyNavBar';
 import "./about.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { Helmet } from "react-helmet-async";
 
 function About() {
     return (
         <div className="about-me-wrapper">
             <MyNavBar />
+            <Helmet>
+                <title>JJ Schmitt | About</title>
+            </Helmet>
             <div className="container">
                 <div className="content-section">
                     

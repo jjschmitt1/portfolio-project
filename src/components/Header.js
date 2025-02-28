@@ -1,9 +1,13 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+import { Helmet } from "react-helmet-async";
 
 const Header = () => {
   return (
     <div className="header-wrapper">
+        <Helmet>
+            <title>JJ Schmitt | Home</title>
+        </Helmet>
         <div className="main-info">
             <h1>Hello World, it's JJ Schmitt</h1>
             <ReactTyped 

@@ -3,6 +3,7 @@ import MyNavBar from "../Navigation/MyNavBar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Helmet } from "react-helmet-async";
 import "./interests.css";
 
 
@@ -11,6 +12,9 @@ function Interests() {
     return (
         <div className="interests-wrapper">
             <MyNavBar />
+            <Helmet>
+                <title>JJ Schmitt | Interests</title>
+            </Helmet>
             <Container>
                 <h1 className="top-header">Interests</h1>
 
