@@ -6,6 +6,18 @@ import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-
 import { Helmet } from "react-helmet-async";
 
 function About() {
+
+    const quotes = ["\"The man who loves walking will walk further than the man who loves the destination\". -Lao Tzu",
+        "\"An idiot admires complexity, a genius admires simplicity.\" -Terry A. Davis",
+        "\"Nothing happens to any man that he is not formed by nature to bear.\" -Marcus Aurelius",
+        "\"He who has a why can bear almost any how.\" -Friedrich Nietzsche",
+        "\"We suffer more often in imagination than in reality\" -Seneca",
+        "\"The only person with whom you have to compare yourself is you in the past\" -Sigmund Freud",
+        "\"A man who is a master of patience is a master of everything else\" -George Savile"
+    ];
+
+    const rand_num = Math.floor(Math.random() * 6.9);
+
     return (
         <div className="about-me-wrapper">
             <MyNavBar />
@@ -13,8 +25,14 @@ function About() {
                 <title>JJ Schmitt | About</title>
             </Helmet>
             <div className="container">
+
+                <div className="quote-section">
+                    <p>Quote of the day</p>
+                    <p>{quotes[rand_num]}</p>
+                </div>
+
                 <div className="content-section">
-                    
+                
                     <div className="left-column">
                         <h1>About Me</h1>
                         <p>

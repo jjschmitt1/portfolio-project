@@ -12,7 +12,26 @@
     gap: 40px;
     max-width: 1000px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 60px;
+}
+
+/* Quote Section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.quote-section p {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+    align-items: center;
+    justify-content: center;
 }
 
 /* Left Column */
