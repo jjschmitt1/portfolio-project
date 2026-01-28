@@ -152,8 +152,8 @@ function Interests() {
                         Every spring break from elementary school through high school was spent on a family ski trip. 
                         There’s something about being out in the snowy wilderness that has always felt right. 
                         In my opinion, few things compare to a day of powder skiing, followed by quality time with 
-                        family and friends, reminiscing about the best runs of the day. This passion is something I 
-                        hope to share with everyone I meet.
+                        family and friends, reminiscing about the best runs of the day. This picture is from my ski trip
+                        to the French Alps with some good friends while I was studying abroad.
                         </p>
                     </Col>
                     <Col md={6} className="skiing-picture pic">
