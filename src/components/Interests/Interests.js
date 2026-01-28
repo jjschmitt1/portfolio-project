@@ -38,7 +38,7 @@ function Interests() {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row className="boone-section sec">
                     <Col md={6} className="boone-text text">
                         <p>
                             This is my Puppy Boone! He is 8.5 months old and about 90 pounds right now. 
