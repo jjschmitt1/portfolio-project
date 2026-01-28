@@ -19,6 +19,9 @@ function Interests() {
                 <h1 className="top-header">Interests</h1>
 
                 <Row className="golf-section sec">
+                    <Col md={6} className="golf-picture pic">
+                        <img src='/content/golf_pic.png' alt="my dad and I at the European Club in Ireland" />
+                    </Col>
                     <Col md={6} className="golf-text text">
                         <p>
                             I have played golf the majority of my life. Despite this,
@@ -33,9 +36,18 @@ function Interests() {
                             Cruden Bay.
                         </p>
                     </Col>
-                    <Col md={6} className="golf-picture pic">
-                        <img src='/content/golf_pic.png' alt="my dad and I at the European Club in Ireland" />
+                </Row>
+
+                <Row>
+                    <Col md={6} className="boone-text text">
+                        This is my Puppy Boone! He is 8.5 months old and about 90 pounds right now. 
+                        He is probably going to get up to about 150-160 pounds, so he is going to be
+                        a big fluffly boy. Boone loves chewing on his toys, laying outside in the cold,
+                        and whining for pets! Despite his haywire puppy brain, he is a very good boy.
                     </Col>
+                    <Col md={6} className="boone-picture pic">
+                        <img src='/content/boone_pic.png' alt="My Puppy Boone at 8 months old"/>
+                    </Col> 
                 </Row>
 
                 <Row className="travel-section sec">

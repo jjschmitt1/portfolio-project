@@ -60,6 +60,18 @@ function Experience() {
                         </div>
                     </Col>
                 </Row>
+                <Row className="work-section">
+                    <Col>
+                        <h2>Work Experience</h2>
+                        <h3>Capital Data: Software Engineer</h3>
+                        <p>June 2025 - Present</p>
+                        <ul>
+                            <li>Created detailed Power BI reports for clients and internal use alike</li>
+                            <li>Developed web apps and mobile apps for clients using Lovable, Supabase and Median.co</li>
+                            <li>Migrated internal pipelines from Dremio and S3 buckets to Microsoft Fabric</li>
+                        </ul>
+                    </Col>
+                </Row>
                 <Row className="internship-section">
                     <Col>
                             <h2>Internship Experience</h2>
