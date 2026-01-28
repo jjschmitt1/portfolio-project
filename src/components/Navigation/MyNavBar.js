@@ -7,7 +7,7 @@ const MyNavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-            <a className="navbar-brand" href="#">JJ Schmitt</a>
+            <Link to="/" className="navbar-brand">JJ Schmitt</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={ faBars } style={{ color: "#fff"}}/>
             </button>
